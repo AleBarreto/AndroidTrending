@@ -8,6 +8,6 @@ before_script:
 build:
   stage: build
   script:
-    - gradlew build
+    - ./gradlew build
   only:
     - master
