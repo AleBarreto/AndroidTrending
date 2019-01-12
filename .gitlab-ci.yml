@@ -1,6 +1,9 @@
 image: cangol/android-gradle
 stages:
   - build
+  
+before_script:
+  - chmod +x ./gradlew
 
 build:
   stage: build
